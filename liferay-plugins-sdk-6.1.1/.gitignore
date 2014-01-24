@@ -73,6 +73,7 @@ local.properties
 
 build.bselack.properties
 
+.ivy
 
 portlets/*/docroot/WEB-INF/classes
 hooks/*/docroot/WEB-INF/classes
