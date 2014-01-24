@@ -2,7 +2,11 @@
   <#assign rowNumber = 1>
   <table class="wcm-table">
   <#list items as item>
-    <tr><td class="wcm-td <@setRowColorClass rowNumber=rowNumber />">${item.data}</td></tr>
+    <tr>
+      <td class="wcm-td <@setRowColorClass rowNumber=rowNumber />">
+        ${item.data}
+      </td>
+    </tr>
     <#assign rowNumber = rowNumber + 1>
   </#list>
   </table>
